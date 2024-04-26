@@ -1,0 +1,85 @@
+.getBtn {
+  background-color: rgb(48, 69, 166);
+  color: white;
+  padding: 20px 80px 20px 80px;
+  font-size: 30px;
+  width: fit-content;
+  transition: 0.3s all;
+}
+.getBtn:hover {
+  cursor: pointer;
+  background-color: rgb(66, 96, 226);
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.notDisplay {
+  display: none;
+}
+.task {
+  display: flex;
+  background-color: rgb(167, 208, 243);
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+.taskField {
+  display: flex;
+  justify-content: center;
+}
+.changeable {
+  margin-left: 20px;
+  color: black;
+}
+.interactiveBtns {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.changeTask {
+  border: none;
+  background-color: rgb(48, 69, 166);
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  margin-right: 20px;
+  transition: 0.3s all;
+}
+.changeTask:hover {
+  cursor: pointer;
+  background-color: rgb(66, 96, 226);
+}
+.taskCompleted {
+  border: none;
+  background-color: rgb(50, 172, 87);
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  margin-right: 20px;
+  transition: 0.3s all;
+}
+.taskCompleted:hover {
+  cursor: pointer;
+  background-color: rgb(59, 202, 102);
+}
+.disabled {
+  border: none;
+  background-color: rgb(202, 202, 202);
+  color: rgb(126, 126, 126);
+  padding: 15px;
+  font-size: 20px;
+  margin-right: 20px;
+  transition: 0.3s all;
+}
+.disabled:hover {
+  cursor: default;
+}
+.smallHeader {
+  font-size: 30px;
+  color: rgb(111, 111, 111);
+  margin-right: 10px;
+}

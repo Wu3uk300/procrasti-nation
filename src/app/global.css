@@ -1,0 +1,99 @@
+.blur-enter {
+  opacity: 0;
+  filter: blur(20px);
+}
+.blur-enter-active {
+  opacity: 1;
+  filter: blur(0);
+  transition: opacity 700ms, filter 700ms;
+}
+.blur-exit {
+  opacity: 1;
+}
+.blur-exit-active {
+  opacity: 0;
+  filter: blur(20px);
+  transition: opacity 700ms, filter 700ms;
+}
+.scale-fade-enter {
+  opacity: 0;
+  transform: scale(0.5);
+}
+.scale-fade-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+.scale-fade-exit {
+  opacity: 1;
+}
+.scale-fade-exit-active {
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 300ms, transform 300ms;
+}
+a {
+  text-decoration: none;
+}
+.popup-bounce-enter {
+  opacity: 0;
+  transform: translateY(-20px) scale(0.9);
+}
+
+.popup-bounce-enter-active {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition: opacity 300ms ease,
+    transform 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.popup-bounce-exit {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.popup-bounce-exit-active {
+  opacity: 0;
+  transform: translateY(-20px) scale(0.9);
+  transition: opacity 300ms ease,
+    transform 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.easy-enter {
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.easy-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.easy-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.easy-exit-active {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 300ms, transform 300ms;
+}

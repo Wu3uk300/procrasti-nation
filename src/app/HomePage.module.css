@@ -1,0 +1,36 @@
+.wrapper {
+  height: 1000px;
+  padding-top: 50px;
+}
+.asking {
+  text-align: center;
+  font-size: 48px;
+}
+.doit {
+  text-align: center;
+  font-size: 30px;
+}
+.centerContainer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.button {
+  width: fit-content;
+}
+.buttonitself {
+  overflow: hidden;
+  transition: 0.3s all;
+}
+
+.buttonitself {
+  background-color: rgb(48, 69, 166);
+  color: white;
+  padding: 20px 80px 20px 80px;
+  font-size: 30px;
+  transition: 0.3s all;
+}
+
+.buttonitself:hover {
+  background-color: rgb(66, 96, 226);
+}
